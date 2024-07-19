@@ -13,6 +13,9 @@ import { BsPerson } from "react-icons/bs";
 export default function Q3() {
   return (
     <>
+    <div className="flex-row">
+    <div className="flex-col">gr3rx4rfxfg</div>
+    <div className="flex-col">
       {/* Section 1 */}
       <div className="p-5">
         <h1 className="font-bold flex items-center gap-2">
@@ -97,7 +100,7 @@ export default function Q3() {
 
       {/* Section 2 */}
       <div className="p-5">
-        <h1 className="flex items-center gap-2">
+        <h1 className="font-bold flex items-center gap-2">
           <PiKeyReturnLight size={25} />
           Returns, Exchanges, and Refunds
         </h1>
@@ -188,7 +191,7 @@ export default function Q3() {
 
       {/* Section 3 */}
       <div className="p-5">
-        <h1 className="flex items-center gap-2">
+        <h1 className="font-bold flex items-center gap-2">
           <MdOutlinePayment size={25} />
           Payments and Promotions
         </h1>
@@ -277,7 +280,7 @@ export default function Q3() {
       </div>
       {/* section 4 */}
       <div>
-        <h1 className="font-bold p-5 flex items-center">
+        <h1 className="font-bold flex items-center gap-2">
           <PiCoatHanger size={25} />
           Informations on Sizes and Products
         </h1>
@@ -362,7 +365,7 @@ export default function Q3() {
 
       {/* section 5 */}
       <div>
-        <h1 className="font-bold p-5 flex items-center">
+        <h1 className="font-bold flex items-center gap-2">
           <BsPerson size={25} />
           Personal Data and Notification
         </h1>
@@ -431,6 +434,8 @@ export default function Q3() {
           </Accordion>
         </div>
       </div>
+    </div>
+    </div>
     </>
   );
 }

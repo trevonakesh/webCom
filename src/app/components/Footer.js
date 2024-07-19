@@ -4,6 +4,8 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { TiSocialTwitter } from "react-icons/ti";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { Poppins } from "next/font/google";
+import { Button } from "@/components/ui/button"
+
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -112,9 +114,9 @@ export default function Footer() {
               Service.
             </label>
             <br />
-            <button variant="secondary" className="p-2">
+            <Button variant="secondary" className="p-5 my-2 bg-black text-white hover:text-black hover:border-black font-bold" >
               Subscribe
-            </button>
+            </Button>
           </div>
         </div>
         <div className="sm:flex-col py-5 lg:flex lg:flex-row lg:justify-between lg:items-center p-5">
